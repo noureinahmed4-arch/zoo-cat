@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    padding: 40px;
+    text-align: center;
+    transition: background-color 0.3s; /* تجعل تحول الألوان ناعماً */
+}
+
+/* الستايل الافتراضي للكارت */
+.card {
+    width: 200px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #e2e8f0;
+    border: 20px solid #cbd5e1;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* الـ Class الخاص بالـ Dark Mode اللي هنشغله بالـ JavaScript */
+.dark-theme {
+    background-color: #057b6d;
+    color: #d9ffed;
+}
+
+/* ستايل للخطأ في التحدي المنزلي */
+.error-border {
+    border: 2px solid red;
+}
+.error-msg {
+    color: red;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+.dd{
+    color: #0f172a;
+}
